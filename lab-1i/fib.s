@@ -11,7 +11,6 @@
 fibonacci:
 	@ ADD/MODIFY CODE BELOW
 	@ PROLOG
-	push {r3, r4, r5, lr}
 	push {r3, r4, r5, r6, lr}
         mov r3,#0xFFFFFFFF
         mov r4,#0
