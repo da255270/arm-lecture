@@ -13,8 +13,6 @@ fibonacci:
 	@ PROLOG
 	push {r3, r4, r5, r6, lr}
         mov r3,#0xFFFFFFFF
-        mov r4,#0
-        mov r5,#0
         mov r6,#1
 loop:      
         add r4,r6,r3	
